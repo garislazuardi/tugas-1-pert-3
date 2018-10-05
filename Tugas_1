@@ -1,0 +1,23 @@
+# tugas-1-pert-3
+#include using namespace std;
+
+int main() {
+
+int BeratBadan,TinggiBadan,TubuhIdeal;
+
+TubuhIdeal = BeratBadan / (TinggiBadan * TinggiBadan);
+
+cout<<"Berat Badan (kg) : ";
+cin>>BeratBadan;
+cout<<"Tinggi Badan (cm) : ";
+cin>>TinggiBadan;
+
+    if (BeratBadan>=60 && TinggiBadan>=150){
+        cout << "Kamu ideal";
+    }
+    else{
+        cout << "Kamu terlalu kurus";
+    }
+    
+return 0;
+}
